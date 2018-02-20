@@ -1,5 +1,21 @@
+def compare(a,b)
+	if a == b
+		print "pass"
+	else 
+		print "fail"
+	end
+end
+
 def plus(number, other)
 	number + other
 end
 
-puts plus(170, 520)
+# plus(170, 520)
+
+# compare(1,8)
+# compare(2,"2".to_i)
+# compare("true","true")
+# compare(15,10+5)
+
+compare(10,plus(2, 8))
+
