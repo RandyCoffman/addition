@@ -1,10 +1,10 @@
-def compare(a,b)
-	if a == b
-		print "pass"
-	else 
-		print "fail"
-	end
-end
+# def compare(a,b)
+# 	if a == b
+# 		print "pass"
+# 	else 
+# 		print "fail"
+# 	end
+# end
 
 def plus(number, other)
 	number + other
@@ -17,5 +17,9 @@ end
 # compare("true","true")
 # compare(15,10+5)
 
-compare(10,plus(2, 8))
+plus(2, 8)
+
+plus(5,5)
+
+plus(15,15)
 
